@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Random Number Guessing Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+
+<!-- Dojo - Random Number Guessing Game Instructions
+
+Your task is to write the Javascript for a random number guessing game. The user is allowed to enter a number as a guess into the input field. When they click on the Guess! button, the program will evaluate and respond with whether their guess is higher than the number that the computer generated, lower or right on. If the user guesses the correct answer, they are told that they won the game.
+
+Rules:
+
+1. You cannot change or modify the HTML document, except for Line 39.
+2. You must complete this Dojo using Javascript.
+3. The pilot cannot do research, they can ask questions of their copilot and the audience.
+4. The copilot and audience can do research and help the pilot.
+5. The facilitator cannot answer questions that will lead to a definitive solution to the dojo.
+6. The facilitator can provide hints or clues. -->
+
+<section class="main">
+    
+    <h1>Random Number Guessing Game</h1>
+    <p>Guess the number that I'm thinking of between 1 - 100. Enter your guess below and click on the Guess button.</p>
+    
+    <input type="text" class="guess"  name="guess">
+    <button class="button" onClick="num()">Guess!</button>
+    <p class="guessResponse"></p>
+    
+</section>
+
+<script src="js/main.js"></script>
+
+    </body>
+</html>
